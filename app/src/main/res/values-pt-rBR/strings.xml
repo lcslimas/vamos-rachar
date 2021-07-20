@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings" translatable="false">Configurações</string>
+    <string name="simbolHint">Símbolo monetário</string>
+    <string name="appHint">Nome do App</string>
+    <string name="totalHint">Valor total</string>
+    <string name="groupHint">Ícone representando grupo</string>
+    <string name="amountHint">Valor gasto</string>
+    <string name="groupNumberHint">Quantidade no grupo</string>
+    <string name="listenHint">Ícone Talkback</string>
+    <string name="shareHint">Ícone de compartilhamento</string>
+</resources>

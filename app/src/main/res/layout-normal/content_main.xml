@@ -25,9 +25,9 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
         android:contentDescription="@string/shareHint"
         app:backgroundTint="#9e5ece"
@@ -39,12 +39,12 @@
         android:id="@+id/floatingActionButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:src="@android:drawable/ic_lock_silent_mode_off"
         android:contentDescription="@string/listenHint"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
         app:backgroundTint="#9e5ece"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -53,7 +53,7 @@
         android:id="@+id/textView5"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginBottom="88dp"
         android:text="@string/simbol"
         android:textColor="@color/white"
         android:textSize="@android:dimen/app_icon_size"
@@ -65,11 +65,11 @@
 
     <TextView
         android:id="@+id/valor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
-        android:layout_marginBottom="152dp"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="104dp"
         android:hint="@string/totalHint"
         android:text="0"
         android:textColor="@color/white"
@@ -86,10 +86,10 @@
         app:backgroundTint="#5d2884"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/numberDecimal2"
-        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.062"
+        app:layout_constraintVertical_bias="0.028"
         app:srcCompat="@android:drawable/ic_menu_myplaces" />
 
     <TextView
@@ -150,8 +150,8 @@
 
     <EditText
         android:id="@+id/numberDecimal2"
-        android:layout_width="match_parent"
-        android:layout_height="57dp"
+        android:layout_width="176dp"
+        android:layout_height="63dp"
         android:layout_marginStart="158dp"
         android:layout_marginLeft="158dp"
         android:layout_marginTop="384dp"
@@ -159,16 +159,16 @@
         android:layout_marginRight="80dp"
         android:layout_marginBottom="290dp"
         android:ems="10"
+        android:hint="@string/groupNumberHint"
         android:inputType="number"
         android:text="2"
         android:textColor="#FFFFFF"
-        android:hint="@string/groupNumberHint"
         app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_main"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.319"
         app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_main"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.49" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

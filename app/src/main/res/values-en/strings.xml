@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listen" translatable="false">Listen to</string>
+    <string name="share" translatable="false">Share it</string>
+    <string name="simbol">US$</string>
+    <string name="simbolHint">currency symbol</string>
+    <string name="appHint">App\'s name</string>
+    <string name="totalHint">Amount</string>
+    <string name="groupHint">Group icon</string>
+    <string name="amountHint">Amount spent</string>
+    <string name="groupNumberHint">Group quantity</string>
+    <string name="listenHint">Talkback Icon</string>
+    <string name="shareHint">Share icon</string>
+</resources>
